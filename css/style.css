@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#carousel {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	border: 5px solid black;
+	overflow: hidden;
+	font-size: 65px;
+	position: relative;
+}
+
+
+i {
+	opacity: 0.5;
+	position: absolute;
+	top: 75%;	
+	transition: 1s;
+}
+
+.fa-chevron-right {
+	left: 88.5%;
+}
+
+.fa:hover {
+	opacity: 1;
+	transition: opacity 1s;
+	cursor: pointer;
+}
+
+.slides-list {
+	width: 2000px;
+	
+}
+
+.slide-instance {
+	width: 400px;
+	height: 300px;
+	float: left;
+	list-style: none;
+}
+
+.slide-number-marks {
+  margin: 0;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, 0)
+}
+
+.li1 {
+  width: 12px;
+  height: 12px;
+  border: solid 2px #000;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin: 2px;
+  opacity: 0.5;
+}
+
+
